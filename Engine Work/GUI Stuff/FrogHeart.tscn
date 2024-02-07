@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://lfgt6jxv06jm"]
+
+[ext_resource type="Texture2D" uid="uid://dk4bde18rhedk" path="res://GUI Stuff/GUI Sprites/frog heart.png" id="1_ksp7n"]
+[ext_resource type="Script" path="res://GUI Stuff/FrogHeart.gd" id="1_nqu15"]
+
+[node name="FrogHeart" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(16, 14)
+anchors_preset = -1
+anchor_right = 0.062
+anchor_bottom = 0.097
+offset_right = 0.127999
+offset_bottom = 0.0319996
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nqu15")
+
+[node name="frogHeartSprite" type="Sprite2D" parent="."]
+position = Vector2(8, 6)
+texture = ExtResource("1_ksp7n")
+hframes = 3

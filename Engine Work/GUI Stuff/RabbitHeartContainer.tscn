@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://brbssmx5r0noc"]
+
+[ext_resource type="Script" path="res://GUI Stuff/RabbitHeartContainer.gd" id="1_wo6fn"]
+
+[node name="RabbitHeartContainer" type="HBoxContainer"]
+offset_right = 16.0
+offset_bottom = 14.0
+theme_override_constants/separation = 2
+script = ExtResource("1_wo6fn")

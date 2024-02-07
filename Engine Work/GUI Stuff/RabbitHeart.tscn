@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://sdlvcyx28vst"]
+
+[ext_resource type="Script" path="res://GUI Stuff/RabbitHeart.gd" id="1_00nwv"]
+[ext_resource type="Texture2D" uid="uid://dq83ycf7u7fgh" path="res://GUI Stuff/GUI Sprites/rabbit_heart.png" id="1_eoyg4"]
+
+[node name="RabbitHeart" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(16, 14)
+anchors_preset = -1
+anchor_right = 0.062
+anchor_bottom = 0.097
+offset_right = 0.127999
+offset_bottom = 0.0319996
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_00nwv")
+
+[node name="rabbitHeartSprite" type="Sprite2D" parent="."]
+position = Vector2(8, 6)
+texture = ExtResource("1_eoyg4")
+hframes = 3
+frame = 2

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://csi10soihd6yd"]
+
+[ext_resource type="Script" path="res://GUI Stuff/FrogHeartContainer.gd" id="1_kylm6"]
+
+[node name="FrogHeartsContainer" type="HBoxContainer"]
+offset_right = 16.0
+offset_bottom = 14.0
+theme_override_constants/separation = 2
+script = ExtResource("1_kylm6")

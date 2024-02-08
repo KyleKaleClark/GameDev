@@ -96,6 +96,7 @@ func _on_hurtbox_area_entered(area):
 	
 	if (area.get_parent().name == 'item' or area.name == 'attack1') and not Inv:
 		print('hit!')
+		print('OUCHIE')
 		health -= area.get_damage()
 		velocity = velocity * -1
 		Invstart = true
